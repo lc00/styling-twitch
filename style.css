@@ -1,0 +1,39 @@
+
+
+body {
+  margin: 0
+}
+
+nav {
+  display: flex;
+
+  justify-content: space-between;
+
+}
+
+nav ul {
+ 
+  list-style-type: none;
+  margin: 10px 0 0 0;
+
+  display: flex;
+  justify-content: space-evenly;
+
+  padding: 0 0 0 5px;
+} 
+
+nav ul li {
+  /* padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 10px; */
+  padding: 5px 5px;
+
+}
+
+.header {
+  background-color: purple;
+}
+
+.active {
+  border-bottom: solid 2px white
+}
