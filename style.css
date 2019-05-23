@@ -6,14 +6,43 @@ body {
 
 .banner {
   display: flex;
-
+  align-items: center;
+  height: 50px;
+  /* color: black */
 }
 
-.banner > * {
+/* .banner > * {
   flex: 1;
   display: flex;
   justify-content: flex-start
+} */
+
+.banner-logo {
+  flex: 1
 }
+
+.banner-mssg-container {
+  flex: 7;
+
+  display: flex;
+  align-items: center
+}
+
+.banner-mssg-container > * {
+  /* flex: 0 */
+  padding-right: 5px
+}
+
+
+.banner-mssg {
+ 
+}
+
+.banner a {
+  color: black
+}
+
+
 
 .channel-list ul {
   list-style: none
@@ -38,7 +67,7 @@ body {
 .channel-list-items > *{
   display: flex;
   /* justify-content:  */
-  /* align-items: center */
+  align-items: center
 }
 
 .channel-list-item-status > * {
