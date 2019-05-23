@@ -1,0 +1,34 @@
+.top-nav {
+  display: flex;
+
+  justify-content: space-between;
+  background-color: purple;
+  color: white
+}
+
+.top-nav ul {
+ 
+  list-style-type: none;
+  margin: 10px 0 0 0;
+
+  display: flex;
+  justify-content: space-evenly;
+
+  padding: 0 0 0 5px;
+  align-items: center
+} 
+
+.top-nav ul li {
+  padding: 5px 5px;
+}
+
+
+.active {
+  border-bottom: solid 2px white
+}
+
+.top-nav-btn {
+  border: solid 1px white;
+  border-radius: 8%;
+  margin-left: 5px;
+}
