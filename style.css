@@ -14,3 +14,33 @@ body {
   display: flex;
   justify-content: flex-start
 }
+
+.channel-list ul {
+  list-style: none
+}
+
+.content  {
+  display: flex;
+  /* flex-flow: row-reverse; */
+  /* justify-content: flex-start */
+}
+
+.channel-list {
+  display: flex;
+  flex-flow: column nowrap;
+
+}
+
+.channel-list ul {
+  padding: 0;
+}
+
+.channel-list-items > *{
+  display: flex;
+  /* justify-content:  */
+  /* align-items: center */
+}
+
+.channel-list-item-status > * {
+  /* padding: 0 */
+}
