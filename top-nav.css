@@ -3,7 +3,9 @@
 
   justify-content: space-between;
   background-color: purple;
-  color: white
+  color: white;
+  padding: 15px 0 5px 0
+  
 }
 
 .top-nav ul {
@@ -35,7 +37,7 @@
 
 .top-nav-left input{
   padding: 3px;
-  background-color:yellow;
+  background-color:darkblue;
   border-radius: 3%;
   border: 0;
   width: 300%;

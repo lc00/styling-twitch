@@ -1,0 +1,30 @@
+.popular-live-channel {
+  display: flex;
+  flex-flow: column nowrap;
+  flex: 1;
+  padding-right: 20px
+}
+
+.popular-live-channel img {
+  padding-bottom: 10px
+}
+
+.popular-live-channel-info {
+  display: flex;
+  align-items: flex-start
+}
+
+
+.popular-live-channel-info > *{
+  padding-right: 10px
+}
+
+.popular-live-channel-info-title {
+  display: flex;
+  flex-flow: column nowrap;
+
+}
+
+.popular-live-channel-info-title > * {
+  padding-bottom: 5px
+}

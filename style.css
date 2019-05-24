@@ -1,18 +1,10 @@
 
-@import 'channel-list.css';
+@import 'channel-lists.css';
 @import 'banner.css';
 @import 'popular-channels.css';
 
 body {
   margin: 0
-}
-
-
-
-.content  {
-  display: flex;
-  /* flex-flow: row-reverse; */
-  /* justify-content: flex-start */
 }
 
 .hero {
@@ -21,16 +13,7 @@ body {
   justify-content: center
 }
 
-aside {
-  background-color: black;
-  color: lightgrey;
-
+.content  {
   display: flex;
-  flex-flow: column nowrap;
 }
-
-aside section:last-child {
-  /* flex: 1 */
-}
-
 

@@ -1,0 +1,17 @@
+@import 'popular-channel.css';
+
+.popular-live-channels {
+  display: flex;
+  flex-flow: column nowrap;
+  margin: 20px
+
+}
+
+.popular-live-channels header {
+  margin: 10px 0
+}
+
+.popular-live-channels section {
+  display: flex;
+}
+
