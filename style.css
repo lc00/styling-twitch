@@ -1,6 +1,7 @@
 
 @import 'channel-list.css';
 @import 'banner.css';
+@import 'popular-channels.css';
 
 body {
   margin: 0
@@ -15,53 +16,21 @@ body {
 }
 
 .hero {
-  margin: 20px
-
+  margin: 20px 0;
+  display: flex;
+  justify-content: center
 }
 
+aside {
+  background-color: black;
+  color: lightgrey;
 
-.popular-live-channels {
   display: flex;
   flex-flow: column nowrap;
-  margin: 20px
-
 }
 
-.popular-live-channels header {
-  margin: 10px 0
-}
-
-.popular-live-channels section {
-  display: flex;
-}
-
-.popular-live-channel {
-  display: flex;
-  flex-flow: column nowrap;
-  flex: 1;
-  padding-right: 20px
-}
-
-.popular-live-channel img {
-  padding-bottom: 10px
-}
-
-.popular-live-channel-info {
-  display: flex;
-  align-items: flex-start
+aside section:last-child {
+  /* flex: 1 */
 }
 
 
-.popular-live-channel-info > *{
-  padding-right: 10px
-}
-
-.popular-live-channel-info-title {
-  display: flex;
-  flex-flow: column nowrap;
-
-}
-
-.popular-live-channel-info-title > * {
-  padding-bottom: 5px
-}
