@@ -43,35 +43,30 @@ body {
 }
 
 
-
-
-.channel-lists {
-  /* margin: 10px */
-}
-
-
-.channel-list ul {
-  list-style: none
-}
-
 .content  {
   display: flex;
   /* flex-flow: row-reverse; */
   /* justify-content: flex-start */
 }
 
+
+
+
+
+
 .channel-list {
   display: flex;
   flex-flow: column nowrap;
 }
 
+.channel-list ul {
+  padding: 0;
+  list-style: none
+}
+
 .channel-list header {
   margin: 10px 5px 5px 5px;
   line-height: 20px
-}
-
-.channel-list ul {
-  padding: 0;
 }
 
 .channel-list-items {
@@ -83,7 +78,9 @@ body {
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
-  justify-content: space-between
+  justify-content: space-between;
+  margin: 5px 0;
+
 }
 
 .channel-list-item > *{
@@ -96,27 +93,19 @@ body {
 
 .channel-list-item-info {
   display: flex;
-  align-items: center;
-  /* padding-right: 10px */
-
-  /* flex-flow: column nowrap; */
 }
 
 .channel-list-item-info > *{
-  /* display: flex; */
-  /* align-items: center; */
-  padding-right: 10px
-
-  /* flex-flow: column nowrap; */
+  display: flex;
+  flex-flow: column nowrap;
+  padding-right: 10px;
 }
 
-/* .channel-list-items-info div:last-child {
-  padding-right: 0
-} */
 
 .channel-list-item-status  {
   /* display: flex; */
   /* justify-content: flex-end; */
-  padding-right: 0
+  padding-right: 0;
+  margin-top: 15px;
 
 }
