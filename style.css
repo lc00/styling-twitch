@@ -44,6 +44,12 @@ body {
 
 
 
+
+.channel-lists {
+  /* margin: 10px */
+}
+
+
 .channel-list ul {
   list-style: none
 }
@@ -57,19 +63,54 @@ body {
 .channel-list {
   display: flex;
   flex-flow: column nowrap;
+}
 
+.channel-list header {
+  margin: 10px 5px 5px 5px;
+  line-height: 20px
 }
 
 .channel-list ul {
   padding: 0;
 }
 
-.channel-list-items > *{
-  display: flex;
-  /* justify-content:  */
-  align-items: center
+.channel-list-items {
+  margin: 10px;
+  border-top: solid 1px grey
 }
 
-.channel-list-item-status > * {
-  /* padding: 0 */
+.channel-list-item {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between
+}
+
+.channel-list-item > *{
+  display: flex;
+  padding-right: 10px
+
+  /* align-items: center; */
+}
+
+
+.channel-list-item-info {
+  display: flex;
+  align-items: center;
+  /* padding-right: 10px */
+
+  /* flex-flow: column nowrap; */
+}
+
+.channel-list-item-info > *{
+  /* display: flex; */
+  /* align-items: center; */
+  padding-right: 10px
+
+  /* flex-flow: column nowrap; */
+}
+
+.channel-list-item-status  {
+  display: flex;
+  justify-content: flex-end
 }
