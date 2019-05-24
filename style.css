@@ -110,7 +110,13 @@ body {
   /* flex-flow: column nowrap; */
 }
 
+/* .channel-list-items-info div:last-child {
+  padding-right: 0
+} */
+
 .channel-list-item-status  {
-  display: flex;
-  justify-content: flex-end
+  /* display: flex; */
+  /* justify-content: flex-end; */
+  padding-right: 0
+
 }
