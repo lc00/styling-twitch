@@ -1,0 +1,27 @@
+.banner {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  /* color: black */
+  background-color: lightblue
+}
+
+.banner-logo {
+  flex: 1
+}
+
+.banner-mssg-container {
+  flex: 7;
+
+  display: flex;
+  align-items: center
+}
+
+.banner-mssg-container > * {
+  /* flex: 0 */
+  padding-right: 5px
+}
+
+.banner a {
+  color: black
+}
