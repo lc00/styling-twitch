@@ -1,4 +1,5 @@
 
+@import 'channel-list.css';
 
 body {
   margin: 0
@@ -10,12 +11,6 @@ body {
   height: 50px;
   /* color: black */
 }
-
-/* .banner > * {
-  flex: 1;
-  display: flex;
-  justify-content: flex-start
-} */
 
 .banner-logo {
   flex: 1
@@ -33,11 +28,6 @@ body {
   padding-right: 5px
 }
 
-
-.banner-mssg {
- 
-}
-
 .banner a {
   color: black
 }
@@ -51,61 +41,3 @@ body {
 
 
 
-
-
-
-.channel-list {
-  display: flex;
-  flex-flow: column nowrap;
-}
-
-.channel-list ul {
-  padding: 0;
-  list-style: none
-}
-
-.channel-list header {
-  margin: 10px 5px 5px 5px;
-  line-height: 20px
-}
-
-.channel-list-items {
-  margin: 10px;
-  border-top: solid 1px grey
-}
-
-.channel-list-item {
-  display: flex;
-  flex-flow: row nowrap;
-  align-items: center;
-  justify-content: space-between;
-  margin: 5px 0;
-
-}
-
-.channel-list-item > *{
-  display: flex;
-  padding-right: 10px
-
-  /* align-items: center; */
-}
-
-
-.channel-list-item-info {
-  display: flex;
-}
-
-.channel-list-item-info > *{
-  display: flex;
-  flex-flow: column nowrap;
-  padding-right: 10px;
-}
-
-
-.channel-list-item-status  {
-  /* display: flex; */
-  /* justify-content: flex-end; */
-  padding-right: 0;
-  margin-top: 15px;
-
-}
